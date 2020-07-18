@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logo-brand {
+  padding-left: 80px;
+}
+
+.bb {
+  padding-right: 30px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: lightskyblue;
+}
+footer .row {
+  padding: 1.5rem 0 4rem;
+  line-height: 2rem;
+}
+footer img {
+  margin: 1.5rem 0;
+}
+footer h3 {
+  margin: 1.5rem 0;
+}
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
